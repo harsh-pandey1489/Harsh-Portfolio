@@ -56,22 +56,6 @@ const About = () => {
 
     })
 
-    //  gsap.from(".leftcontent ul",{
-    //   y:100,
-    //   duration:1,
-    //   opacity:0,
-    //   stagger:1,
-    //   scrollTrigger:{
-    //     trigger:".leftcontent ul",
-    //     scroll:"body",
-    //     scrub:2,
-    //     markers:true,
-    //     start:"top 60%",
-    //     end:"top 30%"
-    //   }
-
-    // })
-
    
   })
   return (
@@ -110,7 +94,7 @@ const About = () => {
                 <span>Graduation</span> : Bsc Mathematics,CGPA-7.8
               </li>
               <li>
-                <span>Poat Graduation</span> : MCA
+                <span>Post Graduation</span> : MCA(Pursuing)
               </li>
 
             </ul>
