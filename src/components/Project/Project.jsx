@@ -30,9 +30,9 @@ const Project = () => {
       <h1 className='heading'>Projects</h1>
       <div className="slider">
 
-        <SmallCard title="Note App" link="https://note-app-project-cc41zpv2d-harsh-pandeys-projects-33ff8154.vercel.app/" />
+        <SmallCard title="Note App" link="https://note-app-project-nine.vercel.app/" />
         <SmallCard title="Virtual Assistant" />
-        <SmallCard title="WorldAtlas" link="https://world-atlas-bonv5v9ij-harsh-pandeys-projects-33ff8154.vercel.app/" />
+        <SmallCard title="WorldAtlas" link="https://world-atlas-app-lemon.vercel.app" />
 
 
       </div>
