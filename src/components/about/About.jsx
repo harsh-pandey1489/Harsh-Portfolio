@@ -77,7 +77,7 @@ const About = () => {
                 <span>Name</span> : Harsh Pandey
               </li>
               <li>
-                <span>Age</span> : 23
+                <span>Age</span> : 22
               </li>
               <li>
                 <span>Gender</span> : Male
