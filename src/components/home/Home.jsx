@@ -31,7 +31,7 @@ const Home = () => {
       opacity:0,
     })
     gsap.from(".righthome .imagebox",{
-        x:190,
+        x:200,
       duration:2,
       opacity:0,
     })

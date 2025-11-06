@@ -38,10 +38,6 @@
   transition: all 0.3s ease;
 
 }
-.imagebox:hover{
-    box-shadow: 2px 2px 20px rgb(63, 242, 254);
-}
-
 .homedetails{
     color: white;
     font-size: 3vmax;
