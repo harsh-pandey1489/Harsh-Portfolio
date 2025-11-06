@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css'
 import man from "../../assets/man.png.jpg"
-import profile from "../../assets/my-pic.jpg"
+import profile from "../../assets/profile-pic.jpg"
 import { Typewriter } from 'react-simple-typewriter'
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap"

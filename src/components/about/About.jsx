@@ -5,6 +5,7 @@ import frontend from  '../../assets/frontend-image.png'
 import reactimg from '../../assets/react.svg'
 import redux from '../../assets/pngwing.com.png'
 import javascript from '../../assets/javascript.png'
+import nextjs from '../../assets/nextjs-original.png'
 import {useGSAP} from "@gsap/react"
 import gsap from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -125,9 +126,11 @@ const About = () => {
       </div>
 
       <div className="rightabout">
+      
     <Card title='ReactJs' image={reactimg}/>
      <Card title='Redux' image={redux}/>
-      <Card title='Javascript' image={javascript}/>
+             <Card title='Next-Js' image={nextjs}/>
+
       
       </div>
     </div>
