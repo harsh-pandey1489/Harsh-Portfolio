@@ -29,10 +29,11 @@ const Project = () => {
     <div id='project'>
       <h1 className='heading'>Projects</h1>
       <div className="slider">
-
-        <SmallCard title="Note App" link="https://note-app-project-nine.vercel.app/" />
-        <SmallCard title="Virtual Assistant" />
+        <SmallCard title='Expense-Tracker' link='http://expense-tracker-chi-nine-29.vercel.app' />
         <SmallCard title="WorldAtlas" link="https://world-atlas-app-lemon.vercel.app" />
+        <SmallCard title="Note App" link="https://note-app-project-nine.vercel.app/" />
+    
+
 
 
       </div>
