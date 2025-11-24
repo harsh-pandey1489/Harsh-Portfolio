@@ -62,6 +62,9 @@
     transition:all 0.3s ;
     width: 150px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .homedetails button:hover{
     background-color: transparent;

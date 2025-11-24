@@ -12,22 +12,42 @@ const Project = () => {
 
   useGSAP(() => {
     gsap.from(".slider", {
-      y: -100,
+       y:100,
       duration: 0.5,
       opacity: 0,
       scrollTrigger: {
         trigger: ".slider",
         scroll: "body",
         scrub: 2,
-
+        markers:true,
         start: "top 80%",
         end: "top 30%"
       }
     })
+
+    gsap.from(".message", {
+       x:-300,
+      duration: 0.5,
+      opacity: 0,
+      scrollTrigger: {
+        trigger: ".message",
+        scroll: "body",
+        scrub: 2,
+        markers:true,
+        start: "top 80%",
+        end: "top 30%"
+      }
+    })
+
+    
   })
   return (
     <div id='project'>
       <h1 className='heading'>Projects</h1>
+      <div className='message'>
+        <h1>OnGoing Project</h1>
+        <h2>AI Resume Analyzer </h2>
+      </div>
       <div className="slider">
         <SmallCard title='Expense-Tracker' link='http://expense-tracker-chi-nine-29.vercel.app' />
         <SmallCard title="WorldAtlas" link="https://world-atlas-app-lemon.vercel.app" />

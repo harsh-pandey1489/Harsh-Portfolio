@@ -9,7 +9,8 @@ import { Timeline } from 'gsap/gsap-core';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { Link } from 'react-router-dom'
-
+import resume from '../../assets/Harsh_resume (1).pdf'
+import { FaArrowDownLong } from "react-icons/fa6";
 
 const Home = () => {
 
@@ -31,7 +32,7 @@ const Home = () => {
       opacity:0,
     })
     gsap.from(".righthome .imagebox",{
-        x:200,
+        x:300,
       duration:2,
       opacity:0,
     })
@@ -61,8 +62,10 @@ const Home = () => {
               <a href=' https://www.linkedin.com/in/harsh-pandey-10b670253/'><FaLinkedin /> </a> 
              <a href='https://github.com/harsh-pandey1489'>  <FaGithub /></a>
             </div>
-              
-          <button className='hire-btn'>Hire ME</button>
+              <a href={resume} download="HarshResume.pdf">
+                 <button className='hire-btn'>Resume <FaArrowDownLong  /></button>
+              </a>
+         
          
           </div>
          

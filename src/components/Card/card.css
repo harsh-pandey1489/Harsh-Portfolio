@@ -1,35 +1,37 @@
-.card{
+.card {
     width: 300px;
     height: 150px;
     background-color: rgb(27, 26, 25);
     position: relative;
-   overflow: hidden;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   box-shadow: 2px 2px 10px black,2px 2px 10px black;
-   border-radius:10px ;
-   cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px black, 2px 2px 10px black;
+    border-radius: 10px;
+    cursor: pointer;
     flex-shrink: 0;
-  
+
 }
 
-.card:hover{
-   box-shadow: 2px 2px 10px rgb(18, 209, 226),2px 2px 10px rgb(26, 169, 195);
+.card:hover {
+    box-shadow: 2px 2px 10px rgb(18, 209, 226), 2px 2px 10px rgb(26, 169, 195);
     transition: all 0.4s;
 
 }
-.hovercard img{
-   height: 90%;
-   width: 50%;
+
+.hovercard img {
+    height: 90%;
+    width: 50%;
     opacity: 0.9;
     border-radius: 10px;
-   
+
 }
-.hovercard{
+
+.hovercard {
     width: 100%;
     height: 100%;
-    background:linear-gradient(to top,rgba(28, 238, 238, 0.486),rgba(31, 26, 26, 0.495));
+    background: linear-gradient(to top, rgba(28, 238, 238, 0.486), rgba(31, 26, 26, 0.495));
     position: absolute;
     bottom: 0;
     transform: translateY(100%);
@@ -39,20 +41,23 @@
     align-items: center;
     backdrop-filter: blur(7px);
 }
-.card:hover .hovercard{
-    transform: translateY(0%); 
-}
-.card h1{
-     background: linear-gradient(to right,rgb(21, 234, 230),white) ;
- background-clip: text;
- color: transparent;
+
+.card:hover .hovercard {
+    transform: translateY(0%);
 }
 
-@media (max-width:750px){
-    .card{
+.card h1 {
+    background: linear-gradient(to right, rgb(21, 234, 230), white);
+    background-clip: text;
+    color: transparent;
+}
+
+@media (max-width:750px) {
+    .card {
         width: 300px;
     }
-    .card h1{
-        font-size:25px;
+
+    .card h1 {
+        font-size: 25px;
     }
 }
