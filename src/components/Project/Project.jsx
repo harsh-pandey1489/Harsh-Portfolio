@@ -19,7 +19,6 @@ const Project = () => {
         trigger: ".slider",
         scroll: "body",
         scrub: 2,
-        markers:true,
         start: "top 80%",
         end: "top 30%"
       }
@@ -33,7 +32,6 @@ const Project = () => {
         trigger: ".message",
         scroll: "body",
         scrub: 2,
-        markers:true,
         start: "top 80%",
         end: "top 30%"
       }
